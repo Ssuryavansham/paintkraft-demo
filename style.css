@@ -1250,11 +1250,18 @@ font-size: 28px;
 @media screen and (max-width:470px){
 
     #painting-ideas-col {
-                padding: 48px;
+                padding: 22px;
         padding-bottom: 20px;
     }
+
+    #painting-ideas-col p {
+        font-size: 14px;
+    }
     #questions-answers-content .col-md-12 {
-        padding: 55px;
+        padding: 22px;
+    }
+    #questions-answers-content .col-md-12 p {
+        font-size: 14px;
     }
 
     #get-in-touch-col .content{
@@ -1274,6 +1281,10 @@ font-size: 28px;
     #slider3 {
         height:800px;
      
+    }
+
+    #slider3 .carousel p {
+        font-size: 14px;
     }
     #carouselExampleCaptions h5 {
         margin-top: 30vw;
@@ -1304,6 +1315,9 @@ font-size: 28px;
     #poster5 {
         display: none;
 
+    }
+    #poster2 p {
+        font-size: 14px;
     }
     #gallery {
         line-height: 6px;
@@ -1353,6 +1367,10 @@ font-size: 28px;
     text-transform: capitalize;
     margin-top: 0; 
     margin-left: 0;
+}
+#work-row{
+    padding: 30px;
+    text-align: center;
 }
 
 }
