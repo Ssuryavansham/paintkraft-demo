@@ -560,28 +560,39 @@ border-color: #ffb74b;
 border-radius: 50%;
  
 }
-#slider3{
-   
-    margin-top: 20px;
-}
+
 #col-md-4-img{
     padding: 40px;
 }
 #slider3{
-    height: 484px;
-    background-color: white;
+  
+    background-color: rgb(218, 80, 80);
+    height: 430px;
 }
 #slider3 .col-md-8{
     text-align: justify;
+   
 }
+
 
 #slider3 .col-md-8 p{
     color: #333;
     font-family: roboto;
     font-weight: 400;
     line-height: 2rem;
+  
     
     
+}
+#slider .carousel-item-active{
+    height: 342px;
+}
+#slider .carousel-item{
+    height: 342px;
+}
+#slider3 .col-md-8 {
+    height: 341px;
+    text-align: justify;
 }
 #slider3 .col-md-8 h3{
     margin-top: 40px;
@@ -634,57 +645,7 @@ margin-left: -9%;
 #slider3 .carousel p{
     font-size: 16px;
 }
-#city-container{
-    background: #f2f2f2;
-    margin-top: 0;
-   
-}
-.container-fluid .city-list{
- 
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #fff;
-    padding: 40px 0;
-    margin: 20px;
-    border-radius: 9px;
-    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
-    font-size: 18px;
- 
-    
-}
-.container-fluid .city-list p{
-    margin-top: -24px;
-    padding: 0;
-}
-   
-    
-.container-fluid .city-list .city-img{
-  
-  
-    border-right: solid 1px #dbdbdb;
-    width:fit-content;
-    float: left;
-}
 
-.container-fluid .city-list .city-img img{
-    width:110px;
-    margin: 30px;
-    height: 80px;
-    border-radius: 5px;
-    
-}
-.container-fluid .city-list .city-back{
-   
-   width: 14.5%;
-   text-align: center;
-  
-   padding: 38px;
-
-}
-
-.container-fluid .Work-header{
-    text-align: center;
-}
 #work-row{
     
     margin: 2px;
@@ -1311,7 +1272,8 @@ font-size: 28px;
         font-size: 17px;
     }
     #slider3 {
-        height: 1100px;
+        height:800px;
+     
     }
     #carouselExampleCaptions h5 {
         margin-top: 30vw;
