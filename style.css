@@ -566,7 +566,7 @@ border-radius: 50%;
 }
 #slider3{
   
-    background-color: rgb(218, 80, 80);
+   
     height: 430px;
 }
 #slider3 .col-md-8{
@@ -729,6 +729,9 @@ margin-left: -9%;
 
 #questions-answers-content {
     padding: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    background: #f2f2f2;
    
    
     
@@ -837,6 +840,8 @@ font-size: 28px;
 #painting-ideas{
     background: #f2f2f2;
     padding: 45px;
+    margin-left: 0;
+    margin-right: 0;
     
 }
 #painting-ideas-col{
@@ -1248,6 +1253,11 @@ font-size: 28px;
 }
 
 @media screen and (max-width:470px){
+    #painting-ideas{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 14px;
+    }
 
     #painting-ideas-col {
                 padding: 22px;
@@ -1257,6 +1267,7 @@ font-size: 28px;
     #painting-ideas-col p {
         font-size: 14px;
     }
+
     #questions-answers-content .col-md-12 {
         padding: 22px;
     }
@@ -1287,7 +1298,7 @@ font-size: 28px;
         font-size: 14px;
     }
     #carouselExampleCaptions h5 {
-        margin-top: 30vw;
+        margin-top: 25vw;
         font-size: 21px;
     }
     #carouselExampleCaptions .carousel-inner .carousel-item .fa {
@@ -1371,6 +1382,20 @@ font-size: 28px;
 #work-row{
     padding: 30px;
     text-align: center;
+}
+.container-fluid .col-md-7 .poster-content p {
+    
+    font-size: 14px;
+}
+
+.offer .row{
+    
+    padding: 0px;
+   margin-right: 0;
+   margin-left: 0;
+   padding-bottom: 15px;
+  
+}
 }
 
 }
