@@ -1260,7 +1260,7 @@ font-size: 28px;
     
 }
 
-@media screen and (max-width:470px){
+@media screen and (max-width:600px){
     #painting-ideas{
         margin-left: 0;
         margin-right: 0;
@@ -1433,7 +1433,61 @@ font-size: 28px;
     left: 63%;
    
 }
+
+.main-body .row .col-sm-12{
+    padding-right:0;
+    padding-left: calc(var(--bs-gutter-x) * .5)
 }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+
+    .footer {
+        background-color: rgb(27, 22, 22);
+        padding: 23px;
+    }
+    .footer .row .col-sm-2 ul p {
+        font-size: 16px;
+    }
+    .footer .row .col-sm-2 ul li {
+      
+        font-size: 14px;
+    }
+    #painting-ideas-col {
+padding: 24px;
+
+    }
+    #questions-answers-content .col-md-12 {
+        padding: 24px;
+    }
+
+    #questions-answers-content .btn {
+        margin-left: 23%;
+
+    }
+
+
+
+    #slider3 {
+        height:800px;
+     
+    }
+    #work-row {
+    text-align: center;
+    }
+
+    .container-fluid .col-md-7 .poster-content p {
+        padding-top: 8px;
+        font-size: 15px;
+    }
+    #poster2 p {
+        font-size: 17px;
+    }
+    
+}
+
+
+
 
 
 
