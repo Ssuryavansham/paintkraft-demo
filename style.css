@@ -218,7 +218,7 @@ body{
     top: 0;
     content: "";
     height: 100%;
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, 0.274);
 }
     
 
@@ -227,8 +227,9 @@ body{
 
    height: auto;
     overflow: hidden;
-    background-image: url("images/background-main.jpg");
-    background-size: cover;
+    background-image: url("images/homebnner-1.jpg");
+    background-size:100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-color:transparent;
     padding:50px;
@@ -354,11 +355,11 @@ body{
     
 }
 .whatsapp-btn img{
-    height: 70px;
+    height: 57px;
    
     vertical-align: middle;
     aspect-ratio: auto 200 / 20;
-    width: 200px;
+    width: 157px;
 
 }
 #pos{
@@ -1287,7 +1288,7 @@ font-size: 28px;
         display: none;
     }
 
-    #main-body .row{
+    .main-body .row{
         
             flex-shrink: 0;
             width: 100%;
@@ -1295,6 +1296,10 @@ font-size: 28px;
             padding-right:0;
             padding-left: calc(var(--bs-gutter-x) * .5);
             margin-top: var(--bs-gutter-y);
+    }
+    
+    .main-body {
+        background-size: cover;
     }
 
     .main-body .row .col-sm-12 .banner-content .btn-box {
@@ -1343,6 +1348,10 @@ font-size: 28px;
         margin-left: 48px;
         margin-top: 60px;
         margin-right: 0px;
+    }
+    #about-us{
+        width: 100%;
+        
     }
     #about-us h3 {
        
